@@ -5,9 +5,11 @@
 }
 header{
     width: 100%;
-    height: 12vh;
+    height: 88px;
     background-color: white;
-    border: 2px solid white;
+    border-bottom: 1px solid black;
+    position: fixed;
+    z-index: 2;
 }
 
 div{
@@ -162,7 +164,7 @@ select{
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
 }
-.fa-regular{
+.faa-regular{
     color: #30b458;
     font-size: 20px;
 }
@@ -242,7 +244,7 @@ select{
 }
 .other_div{
     width: 300px;
-    height: 40vh;
+    height: 260px;
     position: relative;
     right: 40px;
     top: 40px;
@@ -271,15 +273,15 @@ select{
     color: #30b458;
 }
 .foricon{
-    width: 90px;
-    height: 90px;
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
     background-color: #ecf9f0;
     text-align: center;
     justify-content: center;
 }
-.fa-solid,.regular{
-    font-size: 40px;
+.icons,.regular{
+    font-size: 35px;
     color: #43b666;
     position: relative;
     top: 22px;
@@ -289,3 +291,80 @@ select{
     font-family: 'Roboto', sans-serif;
     color: rgba(0, 0, 0, 0.537);
 }
+#cards{
+    width: 100%;
+    height: 42vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#cards div{
+    width: 280px;
+    height: 55px;
+    display: flex;
+    gap: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-color: rgba(128, 128, 128, 0.26);
+    align-items: center;
+}
+.fa-solid{
+    font-size: 30px;
+}
+#cards div .fa-store{
+    color: orange;
+}
+#cards div .fa-chart-column{
+    color: blue;
+}
+#cards div .fa-clipboard-list{
+    color: #e80368;
+}
+#cards div .fa-paint-roller{
+    color: #e361ff;
+}
+#cards div .fa-database{
+    color: #47aeff;
+}
+#cards div .fa-life-ring{
+    color: #ffa76e;
+}
+#cards div .fa-newspaper{
+    color:#11dbcf ;
+}
+#cards div .fa-tags{
+    color:darkblue ;
+}
+#cards div .fa-anchor{
+    color: brown;
+}
+#cards div .fa-compact-disc{
+    color: purple;
+}
+#cards div .fa-tower-cell{
+    color: #ff592a;
+}
+#cards div .fa-fingerprint{
+    color: #43b666;
+}
+#cards div .card__icon{
+    transition: .5s;
+}
+#cards div .card__icon:hover{
+    color: #30b458;
+}
+#cards div:hover{
+    border: 1px solid #30b458 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
