@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 header{
     width: 100%;
     height: 12vh;
@@ -27,7 +26,7 @@ div .word__mentor{
 font-family: 'Roboto', sans-serif;
 }
 
-ul{
+.nav__list{
     display: flex;
     list-style: none;
     gap: 20px;
@@ -37,11 +36,11 @@ ul{
     right: 230px;
 }
 
-ul li{
+.nav__list li{
     transition: .3s ;
 }
 
-ul li:hover{
+.nav__list li:hover{
     color:#5fcf80 ;
 }
 
@@ -135,4 +134,158 @@ select{
 .btn_get_started:hover{
     background-color: #30b458;
 }
+/*-----end of the header and section's learning class------*/
 
+.about{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+.about__words{
+    width: 40%;
+    height: 60vh;
+}
+.about__words h2{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.about__words p{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: bold;
+    filter: brightness(0.9);
+}
+.about__words .paragraphs{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.fa-regular{
+    color: #30b458;
+    font-size: 20px;
+}
+
+.about_image{
+    width: 40%;
+    height: 65vh;
+}
+.about_image .team{
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+}
+.counts{
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.125);
+}
+.counts .numbers{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+    font-size:50px;
+    font-family: 'Roboto', sans-serif;
+    color: #30b458;
+    position: relative;
+    top: 40px;
+
+
+    }
+.counts .numbers:not(.student){
+    right: 17px;
+}
+.counts .titles{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        position: relative;
+        top: 40px;
+    }
+
+.choose__mentor{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.maindiv{
+    width: 400px;
+    height: 52vh;
+    border-radius: 5px;
+    background-color: #5fcf80;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.maindiv h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.maindiv p{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.945);
+}
+.other_div{
+    width: 300px;
+    height: 40vh;
+    position: relative;
+    right: 40px;
+    top: 40px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn_learn_more{
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #7fd999;
+    transition: .5s;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.btn_learn{
+    color: rgba(255, 255, 255, 0.653);
+}
+.btn_learn_more:hover{
+    background-color: white;
+}
+.btn_learn:hover{
+    color: #30b458;
+}
+.foricon{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #ecf9f0;
+    text-align: center;
+    justify-content: center;
+}
+.fa-solid,.regular{
+    font-size: 40px;
+    color: #43b666;
+    position: relative;
+    top: 22px;
+}
+.other_div p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.537);
+}
