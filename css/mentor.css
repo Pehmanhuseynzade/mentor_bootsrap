@@ -478,13 +478,16 @@ select{
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     color: #37423bbd;
+    transition: .5s;
 }
 .boxes .architecto{
     color: #37423bbd;
     font-size: 15px;
     margin-left: 10px;
     font-family: 'Roboto', sans-serif;
-
+}
+.boxes h2:hover{
+    color: #30b458;
 }
 .h_line{
     border-bottom: 1px solid rgba(80, 80, 78, 0.567);
@@ -512,6 +515,59 @@ select{
     margin-right: 110px;
     margin-bottom: 30px;
     color: #37423bbd;
+}
+/* I passed trainers classes with section tag */
+.trainers{
+    width: 100%;
+    height: 690px;
+    border: 1px solid red;
+    display: flex;
+}
+.trainers_boxes{
+    width: 400px;
+    height: 550px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+}
+.trainers_photos{
+    width:400px ;
+    height: 370px;
+    background-size: cover;
+}
+.trainers_inform{
+    text-align: center;
+    margin: 0 auto;
+}
+.trainers_inform h2{
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+}
+.trainers_inform .web_development{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.trainers_inform .marketing,.content{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+.about_trainers{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    padding-left: 5px;
+    color: #37423bbd;
+}
+.social--media{
+    font-size: 23px;
+    border-radius: 50%;
+    gap: 20px;
+
+}
+.social--media:hover{
+    background-color: #30b458;
 }
 
 
